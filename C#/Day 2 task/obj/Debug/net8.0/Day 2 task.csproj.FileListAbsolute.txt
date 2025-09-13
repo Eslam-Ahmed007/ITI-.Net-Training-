@@ -1,0 +1,15 @@
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\bin\Debug\net8.0\Day 2 task.exe
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\bin\Debug\net8.0\Day 2 task.deps.json
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\bin\Debug\net8.0\Day 2 task.runtimeconfig.json
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\bin\Debug\net8.0\Day 2 task.dll
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\bin\Debug\net8.0\Day 2 task.pdb
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.AssemblyInfoInputs.cache
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.AssemblyInfo.cs
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.csproj.CoreCompileInputs.cache
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.sourcelink.json
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.dll
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\refint\Day 2 task.dll
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.pdb
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\Day 2 task.genruntimeconfig.cache
+D:\university\ITI\ITI-.Net-Training\C#\Day 2 task\obj\Debug\net8.0\ref\Day 2 task.dll
