@@ -1,0 +1,8 @@
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\bin\Debug\Day 5&6 task.exe.config
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\bin\Debug\Day 5&6 task.exe
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\bin\Debug\Day 5&6 task.pdb
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\obj\Debug\Day 5&6 task.csproj.AssemblyReference.cache
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\obj\Debug\Day 5&6 task.csproj.CoreCompileInputs.cache
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\obj\Debug\Day 5&6 task.exe
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\obj\Debug\Day 5&6 task.pdb
+D:\university\ITI\ITI-.Net-Training\C#\Day 5&6 task\obj\Debug\Day 5&6 task.exe.config
