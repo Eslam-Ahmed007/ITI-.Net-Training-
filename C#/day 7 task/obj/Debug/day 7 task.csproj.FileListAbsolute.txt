@@ -1,0 +1,7 @@
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\bin\Debug\day 7 task.exe.config
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\bin\Debug\day 7 task.exe
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\bin\Debug\day 7 task.pdb
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\obj\Debug\day 7 task.csproj.AssemblyReference.cache
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\obj\Debug\day 7 task.csproj.CoreCompileInputs.cache
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\obj\Debug\day 7 task.exe
+D:\university\ITI\ITI-.Net-Training\C#\day 7 task\obj\Debug\day 7 task.pdb
