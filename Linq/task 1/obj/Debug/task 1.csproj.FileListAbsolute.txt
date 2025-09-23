@@ -1,0 +1,8 @@
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\bin\Debug\task 1.exe.config
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\bin\Debug\task 1.exe
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\bin\Debug\task 1.pdb
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\obj\Debug\task 1.csproj.AssemblyReference.cache
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\obj\Debug\task 1.csproj.CoreCompileInputs.cache
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\obj\Debug\task 1.exe
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\obj\Debug\task 1.pdb
+D:\university\ITI\ITI-.Net-Training\Linq\task 1\obj\Debug\task 1.exe.config
