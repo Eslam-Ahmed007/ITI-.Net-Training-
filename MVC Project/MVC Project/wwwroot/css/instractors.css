@@ -1,0 +1,376 @@
+﻿/* Glassmorphism Instructors Styling */
+
+h1 {
+    color: #ffffff;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+/* Instructor Cards */
+.instructor-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    transition: all 0.4s ease;
+    overflow: hidden;
+    height: 100%;
+}
+
+    .instructor-card:hover {
+        transform: translateY(-15px) scale(1.02);
+        box-shadow: 0 15px 45px 0 rgba(31, 38, 135, 0.4);
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.4s ease;
+}
+
+.instructor-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Buttons Glass Style */
+.btn {
+    border-radius: 15px;
+    font-weight: 600;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin: 0.25rem;
+}
+
+    .btn::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: translate(-50%, -50%);
+        transition: width 0.6s, height 0.6s;
+    }
+
+    .btn:hover::before {
+        width: 300px;
+        height: 300px;
+    }
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    color: #ffffff;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        color: #ffffff;
+    }
+
+.btn-info {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+    color: #ffffff;
+}
+
+    .btn-info:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(79, 172, 254, 0.6);
+        color: #ffffff;
+    }
+
+.btn-warning {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    box-shadow: 0 4px 15px rgba(240, 147, 251, 0.4);
+    color: #ffffff;
+}
+
+    .btn-warning:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(240, 147, 251, 0.6);
+        color: #ffffff;
+    }
+
+.btn-danger {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    box-shadow: 0 4px 15px rgba(250, 112, 154, 0.4);
+    color: #ffffff;
+}
+
+    .btn-danger:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(250, 112, 154, 0.6);
+        color: #ffffff;
+    }
+
+.btn-success {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    box-shadow: 0 4px 15px rgba(67, 233, 123, 0.4);
+    color: #ffffff;
+}
+
+    .btn-success:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(67, 233, 123, 0.6);
+        color: #ffffff;
+    }
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+    .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+    }
+
+/* Details and Delete Cards */
+.details-card, .delete-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+    .details-card h3, .delete-card h3 {
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .details-card p, .delete-card p {
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+    }
+
+    .details-card strong, .delete-card strong {
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+/* Form Controls Glass */
+.form-control, .form-select {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 0.8rem 1.2rem;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus, .form-select:focus {
+        background: rgba(255, 255, 255, 0.25);
+        border-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        color: #ffffff;
+    }
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+.form-label {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Validation Messages */
+.text-danger {
+    color: #fee140 !important;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Alert Messages */
+.alert {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+
+.alert-danger {
+    background: rgba(250, 112, 154, 0.2);
+    border-color: rgba(250, 112, 154, 0.4);
+}
+
+.alert-success {
+    background: rgba(67, 233, 123, 0.2);
+    border-color: rgba(67, 233, 123, 0.4);
+}
+
+.alert-info {
+    background: rgba(79, 172, 254, 0.2);
+    border-color: rgba(79, 172, 254, 0.4);
+}
+
+/* Table Glass Style */
+.table {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+    .table thead {
+        background: rgba(102, 126, 234, 0.3);
+        backdrop-filter: blur(10px);
+    }
+
+    .table th {
+        color: #ffffff;
+        font-weight: 700;
+        border: none;
+        padding: 1rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .table td {
+        color: rgba(255, 255, 255, 0.9);
+        border-color: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        vertical-align: middle;
+    }
+
+    .table tbody tr {
+        transition: all 0.3s ease;
+    }
+
+        .table tbody tr:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+/* Create/Edit Form Cards */
+.form-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+    padding: 2.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Icon Styling */
+.btn i {
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover i {
+    transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .instructor-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    .details-card, .delete-card, .form-card {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+/* Animation Classes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Card Grid Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.75rem;
+}
+
+.col-md-4, .col-lg-3, .col-sm-6 {
+    padding: 0.75rem;
+}
+
+/* Image Placeholder for Missing Images */
+.card-img-top[src=""], .card-img-top:not([src]) {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 4rem;
+}
